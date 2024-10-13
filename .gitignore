@@ -1,0 +1,4 @@
+node_modules
+/mosquitto/log/
+/mosquitto/data/
+.env

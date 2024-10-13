@@ -1,0 +1,28 @@
+{
+  "name": "server-iot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/sqlite3": "^3.1.11",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mqtt": "^5.10.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.5",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
